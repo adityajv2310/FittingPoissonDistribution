@@ -45,7 +45,7 @@ Prob=list(); E=list(); xi=list()
 print("  X P(X=x) Obs.Fr  Ex.Fre   xi ")
 print("----------------------------------")
 for x in range(7):
-    Prob.append(math.exp(-mean)*mean*x/math.factorial(x))
+    Prob.append(math.exp(-mean)*mean**x/math.factorial(x))
     E.append(Prob[x]*N)
     xi.append((f[x]-E[x])**2/E[x])
     print("%2.2f %2.2f  %4.2f   %3.2f   %3.2f"%(x,Prob[x],f[x],E[x],xi[x]))
@@ -62,8 +62,8 @@ else:
  
 
 # Output : 
- ![Fitting Poisson Distribution - Jupyter Notebook and 1 more page - Personal - Microsoft​ Edge 07-05-2022 14_17_02 (2)](https://user-images.githubusercontent.com/75235386/167246933-e1730be4-92e4-4d27-a2a8-ad0c52de8966.png)
- 
+ ![Pqm Exp2](https://user-images.githubusercontent.com/75235386/168961945-6cc429d3-0887-4c22-9ae5-277bab7efa38.png)
+
  # Result :
  Thus, fitting poisson distribution for the given frequencey distribution is verified.
 
