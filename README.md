@@ -1,4 +1,7 @@
-# Fitting Poisson Distribution
+### EXP NO: 02
+### DATE:
+
+# <p align = "center"> Fitting Poisson Distribution
 
 # Aim : 
 
@@ -29,9 +32,13 @@ The Poisson distribution is the discrete probability distribution of the number 
 ![image](https://user-images.githubusercontent.com/104613195/166251988-d0c53205-6080-4f7b-ae4c-398178586637.png)
 
 # Program :
+```
+# Developed by: Aditya JV
+# Register Number:212220230002
+```
 ```python
-# Developed by Aditya JV
-# Register Number: 212220230002
+
+
 
 import numpy as np
 import math
@@ -58,12 +65,17 @@ if cal_chi2<tab_chi2:
     print("The given data can be fitted in Poissson distribution at 1% LOS")
 else:
     print("The given data cannot be fitted in Poisson distribution at 1% LOS")
+
+
 ```
+
  
 
 # Output : 
- ![Pqm Exp2](https://user-images.githubusercontent.com/75235386/168961945-6cc429d3-0887-4c22-9ae5-277bab7efa38.png)
+![TRGEY](https://user-images.githubusercontent.com/75235789/168960162-9aa581ee-7031-43e7-80c6-7311da8e8191.png)
 
- # Result :
- Thus, fitting poisson distribution for the given frequencey distribution is verified.
 
+# Result:
+Thus, the program to fit poisson distribution is implemented.
+
+ 
